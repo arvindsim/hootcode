@@ -1,4 +1,5 @@
 require 'omniauth'
+
 module Omniauth
 
   module Mock
@@ -14,6 +15,9 @@ module Omniauth
           'secret' => 'mock_secret'
         }
       }
+    end
+    def facebook_login_failure
+      OmniAuth.config.mock_auth[:github] = :invalid_credentials
     end
   end
 

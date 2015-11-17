@@ -185,6 +185,10 @@ GEM
     rainbow (2.0.0)
     rake (10.4.2)
     ref (2.0.0)
+    rspec-activemodel-mocks (1.0.2)
+      activemodel (>= 3.0)
+      activesupport (>= 3.0)
+      rspec-mocks (>= 2.99, < 4.0)
     rspec-core (3.4.0)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
@@ -283,6 +287,7 @@ DEPENDENCIES
   quiet_assets
   rails (= 4.2.4)
   rails_layout
+  rspec-activemodel-mocks
   rspec-rails (~> 3.0)
   rubocop
   sass-rails (~> 5.0)
