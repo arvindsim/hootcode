@@ -38,5 +38,8 @@ group :development, :test do
   gem 'pry-rescue'
   gem 'rubocop'
   gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-activemodel-mocks'
+  gem 'factory_girl'
+  gem 'factory_girl_rails'
 
 end
